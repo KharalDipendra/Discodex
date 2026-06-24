@@ -1,0 +1,17 @@
+{
+  "clientId": "YOUR_DISCORD_APPLICATION_CLIENT_ID",
+  "subscriptionType": "ChatGPT Plus",
+  "workingOn": "Building a Discord RPC for Codex",
+  "startedAt": "2026-06-24T09:00:00+12:00",
+  "largeImageKey": "codex",
+  "largeImageText": "Codex",
+  "smallImageKey": "openai",
+  "smallImageText": "Coding with Codex",
+  "statusFile": "examples/status-file.example.json",
+  "buttons": [
+    {
+      "label": "View project",
+      "url": "https://github.com/your-name/codex-discord-rpc"
+    }
+  ]
+}

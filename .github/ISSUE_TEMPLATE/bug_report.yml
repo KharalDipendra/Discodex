@@ -1,0 +1,31 @@
+name: Bug Report
+description: Report something that is not working correctly.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Include commands, config snippets with secrets removed, and Discord desktop version if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+    validations:
+      required: true
+  - type: input
+    id: node
+    attributes:
+      label: Node Version
+      placeholder: "node --version"
